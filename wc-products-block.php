@@ -116,6 +116,10 @@ class WC_Products_Block {
 	}
 }
 
-$block = new WC_Products_Block();
 
-
+/**
+ * Check if WooCommerce is activated to activate the plugin logic.
+ */
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+	$block = new WC_Products_Block();
+}
