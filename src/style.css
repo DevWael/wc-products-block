@@ -1,0 +1,62 @@
+
+.wp-block-create-block-wc-products .colorPickerControlWrapper .components-base-control{
+    justify-content: center;
+    display: grid;
+}
+.products-block-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 !important;
+}
+
+.products-block-list li {
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.products-block-list .block-add-to-cart-btn {
+    padding: 5px 13px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    margin: 0 auto;
+    display: table;
+    transition: 300ms;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.products-block-list .block-add-to-cart-btn:hover{
+    opacity: .8;
+}
+
+.products-block-list .product-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products-block-list .product-title a{
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.products-block-list .price-tag{
+    text-align: center;
+}
+
+.products-block-list .product-image {
+    width: 100%;
+    height: auto;
+}
+
+.products-block-list .sale-tag {
+    color: #fff;
+    background-color: #1e1e1e;
+    padding: 1px 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}

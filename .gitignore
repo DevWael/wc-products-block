@@ -1,0 +1,6 @@
+.idea/
+/vendor
+/coverage
+/node_modules
+composer.lock
+tmp

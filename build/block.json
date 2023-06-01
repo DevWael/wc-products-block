@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "devwael/wc-products",
+  "version": "0.1.0",
+  "title": "WC Products",
+  "category": "widgets",
+  "icon": "store",
+  "description": "Gutenberg block to show woocommerce products",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wc-products",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "gridGap": {
+      "type": "number",
+      "default": 10
+    },
+    "displaySaleTag": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayProductTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayProductPrice": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayAddToCartButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "productTitleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "productPriceColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "productButtonTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "productButtonBgColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  }
+}
